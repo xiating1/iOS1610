@@ -20,7 +20,6 @@ class ViewController: UIViewController {
 
         
     }
-    
    
     /**别人写的*/
     func methodname(){

@@ -1,5 +1,5 @@
 //
-//  NewViewController.swift
+//  AViewController.swift
 //  GitDemoe
 //
 //  Created by 夏婷 on 16/9/20.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class NewViewController: UIViewController {
+class AViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("烧烤店老板v")
     }
 
     override func didReceiveMemoryWarning() {
