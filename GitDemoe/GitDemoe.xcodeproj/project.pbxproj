@@ -12,6 +12,7 @@
 		840D2FEA1D90D08800ED0CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D2FE81D90D08800ED0CC6 /* Main.storyboard */; };
 		840D2FEC1D90D08800ED0CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D2FEB1D90D08800ED0CC6 /* Assets.xcassets */; };
 		840D2FEF1D90D08800ED0CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D2FED1D90D08800ED0CC6 /* LaunchScreen.storyboard */; };
+		840D2FF71D90D59300ED0CC6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D2FF61D90D59300ED0CC6 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		840D2FEB1D90D08800ED0CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840D2FEE1D90D08800ED0CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840D2FF01D90D08800ED0CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840D2FF61D90D59300ED0CC6 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		840D2FD81D90D08800ED0CC6 = {
 			isa = PBXGroup;
 			children = (
+				840D2FF61D90D59300ED0CC6 /* NewViewController.swift */,
 				840D2FE31D90D08800ED0CC6 /* GitDemoe */,
 				840D2FE21D90D08800ED0CC6 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840D2FF71D90D59300ED0CC6 /* NewViewController.swift in Sources */,
 				840D2FE71D90D08800ED0CC6 /* ViewController.swift in Sources */,
 				840D2FE51D90D08800ED0CC6 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				840D2FF51D90D08800ED0CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
